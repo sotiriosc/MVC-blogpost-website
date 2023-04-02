@@ -1,3 +1,5 @@
+// Create connection object and require dotenv for connection variables. 
+
 const Sequelize = require('sequelize');
 require('dotenv').config();
 

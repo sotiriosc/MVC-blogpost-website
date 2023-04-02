@@ -1,6 +1,9 @@
+// Set up Blog routes
 const router = require('express').Router();
 const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
+
+// Define and create Post routes
 
 router.post('/', withAuth, async (req, res) => {
   try {
@@ -15,6 +18,7 @@ router.post('/', withAuth, async (req, res) => {
   }
 });
 
+// Define and create delete routes
 router.delete('/:id', withAuth, async (req, res) => {
   try {
     const blogData = await Blog.destroy({

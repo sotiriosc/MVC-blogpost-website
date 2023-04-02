@@ -1,6 +1,10 @@
+// Create Comment routes
+
 const router = require('express').Router();
 const { Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
+
+// Route to retreive all comments from Database array
 
 router.get('/', (req,res) => {
     Comment.findAll({})
@@ -10,6 +14,8 @@ router.get('/', (req,res) => {
         res.status(500).json(err)
     });
 });
+
+// This route will retrieve all routes according to an id
 
 router.get('/:id', (req, res) => {
     Comment.findAll({
@@ -24,6 +30,8 @@ router.get('/:id', (req, res) => {
         })
 });
 
+// This route will post and create a new comment 
+
 router.post('/', async (req, res) => {
   try {
     const newComment = await Comment.create({
@@ -35,6 +43,8 @@ router.post('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+// This will route the delete function
 
 router.delete('/:id', withAuth, async (req, res) => {
   try {

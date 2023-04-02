@@ -1,3 +1,5 @@
+// Here we define the blog sequilize model
+
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 

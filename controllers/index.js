@@ -1,3 +1,5 @@
+// This file set up the pathway for all files in api.
+
 const router = require('express').Router();
 
 const apiRoutes = require('./api');

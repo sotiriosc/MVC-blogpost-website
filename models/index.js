@@ -1,3 +1,5 @@
+// Here we define the index sequilize model
+
 const User = require('./User');
 const Blog = require('./Blog');
 const Comment = require('./Comment');

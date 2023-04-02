@@ -2,6 +2,8 @@ const router = require('express').Router();
 const { User, Blog, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
+// This route will display all posts on homepage
+
 router.get('/', async (req, res) => {
 	try {
 		const blogData = await Blog.findAll({
@@ -23,6 +25,8 @@ router.get('/', async (req, res) => {
 		res.status(500).json(err);
 	}
 });
+
+// This route will retrieve blogs according to its id
 
 router.get('/blog/:id', async (req, res) => {
 	try {

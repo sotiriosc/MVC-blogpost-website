@@ -1,5 +1,9 @@
+// This file defines the userroutes for sign up
+
 const router = require('express').Router();
 const { User } = require('../../models');
+
+// This route will create a new user. 
 
 router.post('/', async (req, res) => {
   try {
@@ -15,6 +19,8 @@ router.post('/', async (req, res) => {
     res.status(400).json(err);
   }
 });
+
+// This route will allow users to log in and verify the password.
 
 router.post('/login', async (req, res) => {
   try {
@@ -49,6 +55,8 @@ router.post('/login', async (req, res) => {
     res.status(400).json(err);
   }
 });
+
+// This route will delete the user session
 
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {

@@ -78,7 +78,7 @@ body {
 }
 
 .commentCont {
-  border-style: dashed;
+  border-style: dotted;
 }
 
 .headerRow {
@@ -87,14 +87,14 @@ body {
 }
 
 a:link {
-  color: rgb(29, 200, 23);
+  color: rgb(200, 23, 182);
 }
 a:visited {
-  color: rgb(182, 179, 41);
+  color: rgb(41, 76, 182);
 }
 
 a:hover {
-  color: deeppink;
+  color: rgb(255, 102, 20);
 }
 
 .login{
