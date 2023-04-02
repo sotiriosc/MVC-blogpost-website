@@ -1,7 +1,7 @@
 {
-  "name": "MVC-blogpost-website",
+  "name": "mvc-blogpost-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,12 +9,12 @@
     "seed": "node seeds/index.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.0.4",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
@@ -23,11 +23,19 @@
   "devDependencies": {
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
-    "prettier": "^2.1.2",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "prettier": "^2.1.2"
   },
-    "engines" : { 
-       "npm" : "=8.19.2",
-       "node" : "=16.18.0"
-     }
-   }
+  "engines": {
+    "npm": "=8.19.2",
+    "node": "=16.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotiriosc/MVC-blogpost-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sotiriosc/MVC-blogpost-website/issues"
+  },
+  "homepage": "https://github.com/sotiriosc/MVC-blogpost-website#readme"
+}
