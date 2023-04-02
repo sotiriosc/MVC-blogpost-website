@@ -3,7 +3,7 @@ body {
 }
 
 .navTitle {
-  font-weight: 900;
+  font-weight: 1000;
   font-size: xx-large;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .blogTitle {
-  text-decoration: none;
+  text-decoration: initial;
   color: rgb(238, 165, 55);
 }
 
@@ -107,4 +107,9 @@ a:hover {
 
 .form-group{
 	margin-top: 10px;
+}
+
+#blog-desc{
+  width: 620px;
+  height: 175px;
 }
