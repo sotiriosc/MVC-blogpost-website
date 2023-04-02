@@ -113,3 +113,8 @@ a:hover {
   width: 620px;
   height: 175px;
 }
+
+#body{
+  justify-content: center;
+  align-items: center;
+}
