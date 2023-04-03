@@ -20,7 +20,7 @@ It makes it easy to manage notes and resposibilities.
 
 ### Learn
 
-I learned how to utilse a server, databases, models and handlebars to create dynamic webpages.
+I learned how to utilse a server, databases, models and handlebars to create dynamic webpages. Some of the technologies used were bcrypt, connect-session-sequilize, dotenv, express, mysql2, and sequilize. 
 
 ## Table of Contents:
 
