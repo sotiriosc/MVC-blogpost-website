@@ -10,6 +10,8 @@ To build a blogpost website that I can add study notes and important things for 
 
 ### Build
 
+![An example blog:](assets/images/techblogphoto.png)
+
 I built this project to practice and expand my MVC framework skills.
 
 ### Solve
@@ -59,3 +61,5 @@ none
 
 The source code of this project can be found on my Github repository at www.github.com/sotiriosc. Feel free to contact 
 me any time regarding questions or recomendations. My email is chortogiannoss@gmail.com. Thank you for taking the time to review and use my app. 
+
+[GitHub Profile](https://github.com/sotiriosc/MVC-blogpost-website)

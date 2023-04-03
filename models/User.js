@@ -31,6 +31,7 @@ User.init(
       },
     },
   },
+  // this hook will utilize bcrypt to hash password
   {
     hooks: {
       beforeCreate: async (newUserData) => {
