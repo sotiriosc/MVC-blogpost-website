@@ -1,5 +1,9 @@
 // This index file organizes all the routes and creates a module available to other files through module exports.
 
+
+
+
+
 const router = require('express').Router();
 const blogRoutes = require('./blogRoutes');
 const commentRoutes = require('./commentRoutes');
